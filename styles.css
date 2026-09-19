@@ -1876,10 +1876,10 @@ body.home-menu-open {
   }
 
   .hero__features {
-    margin-top: clamp(44px, 11vw, 58px);
+    margin: clamp(75px, 19vw, 105px) 0 0 !important;
     width: auto;
     max-width: 88%;
-    gap: clamp(12px, 3vw, 15px);
+    gap: clamp(13px, 3.2vw, 16px);
     align-items: flex-start;
     text-align: left;
   }
