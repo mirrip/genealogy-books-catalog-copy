@@ -785,7 +785,7 @@ body.home-menu-open {
 .hero__features {
   list-style: none;
   padding: 0;
-  margin: clamp(56px, 5.8vw, 86px) 0 0;
+  margin: clamp(42px, 4.2vw, 62px) 0 0;
   display: flex;
   flex-direction: column;
   gap: clamp(15px, 1.5vw, 21px);
@@ -1876,7 +1876,7 @@ body.home-menu-open {
   }
 
   .hero__features {
-    margin: clamp(75px, 19vw, 105px) 0 0 !important;
+    margin: clamp(35px, 9vw, 42px) 0 0 !important;
     width: auto;
     max-width: 88%;
     gap: clamp(13px, 3.2vw, 16px);
