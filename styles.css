@@ -785,19 +785,19 @@ body.home-menu-open {
 .hero__features {
   list-style: none;
   padding: 0;
-  margin: clamp(22px, 2.2vw, 34px) 0 0;
+  margin: clamp(20px, 2vw, 30px) 0 0;
   display: flex;
   flex-direction: column;
-  gap: clamp(12px, 1.35vw, 19px);
+  gap: clamp(11px, 1.2vw, 17px);
 }
 
 .hero__features li {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 13px;
   color: var(--gold-light);
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(24px, 2.1vw, 32px);
+  font-size: clamp(22px, 1.9vw, 28px);
   font-weight: 500;
   line-height: 1.35;
   letter-spacing: .015em;
@@ -809,7 +809,7 @@ body.home-menu-open {
   align-items: center;
   justify-content: center;
   color: #d8a44b;
-  font-size: clamp(16px, 1.3vw, 20px);
+  font-size: clamp(15px, 1.2vw, 18px);
   line-height: 1;
   flex-shrink: 0;
   text-shadow: 0 0 12px rgba(216, 164, 75, .5);
@@ -1875,7 +1875,7 @@ body.home-menu-open {
   }
 
   .hero__features {
-    margin-top: 14px;
+    margin-top: 22px;
     width: auto;
     max-width: 88%;
     gap: 10px;
@@ -2348,7 +2348,7 @@ body.home-menu-open {
 
   .hero__features {
     max-width: 92%;
-    margin-top: 11px;
+    margin-top: 18px;
     gap: 8px;
     align-items: flex-start;
     text-align: left;
