@@ -793,7 +793,7 @@ body.home-menu-open {
 
 .hero__features li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 13px;
   color: var(--gold-light);
   font-family: 'Cormorant Garamond', Georgia, serif;
@@ -805,10 +805,12 @@ body.home-menu-open {
 }
 
 .hero__feature-mark {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #d8a44b;
   font-size: clamp(14px, 1.15vw, 17px);
-  line-height: 1.45;
+  line-height: 1;
   flex-shrink: 0;
   text-shadow: 0 0 12px rgba(216, 164, 75, .5);
 }
@@ -1840,9 +1842,16 @@ body.home-menu-open {
   }
 
   .hero__content {
-    top: 15%;
-    left: 8.5%;
-    max-width: 84%;
+    top: 14%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero__eyebrow {
@@ -1852,30 +1861,38 @@ body.home-menu-open {
   .hero h1 {
     font-size: clamp(32px, 9.5vw, 42px);
     line-height: .98;
+    text-align: center;
   }
 
   .hero__lead {
     margin-top: 10px;
-    max-width: 64%;
+    max-width: 80%;
     font-size: clamp(10px, 2.9vw, 12px);
     line-height: 1.35;
+    text-align: center;
   }
 
   .hero__features {
     margin-top: 14px;
-    max-width: 78%;
+    width: 100%;
+    max-width: 90%;
     gap: 9px;
+    align-items: center;
+    text-align: center;
   }
 
   .hero__features li {
-    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
     font-size: clamp(15px, 4.4vw, 19px);
     line-height: 1.32;
   }
 
   .hero__feature-mark {
     font-size: 11px;
-    line-height: 1.4;
+    line-height: 1;
   }
 
   .desktop-only {
@@ -2299,33 +2316,45 @@ body.home-menu-open {
   }
 
   .hero__content {
-    top: 15%;
-    left: 7%;
-    max-width: 89%;
+    top: 14%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+    text-align: center;
+    align-items: center;
   }
 
   .hero h1 {
-    font-size: 30px;
-    line-height: .98;
+    font-size: 28px;
+    line-height: 1.05;
+    text-align: center;
   }
 
   .hero__lead {
-    max-width: 73%;
+    max-width: 90%;
     margin-top: 7px;
     font-size: 9px;
     line-height: 1.22;
+    text-align: center;
   }
 
   .hero__features {
-    max-width: 84%;
+    max-width: 96%;
     margin-top: 10px;
     gap: 7px;
+    align-items: center;
+    text-align: center;
   }
 
   .hero__features li {
-    gap: 8px;
+    gap: 7px;
     font-size: clamp(14px, 4.1vw, 17px);
     line-height: 1.28;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .hero__actions {
