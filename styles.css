@@ -785,29 +785,32 @@ body.home-menu-open {
 .hero__features {
   list-style: none;
   padding: 0;
-  margin: clamp(18px, 1.8vw, 26px) 0 0;
+  margin: clamp(20px, 2vw, 30px) 0 0;
   display: flex;
   flex-direction: column;
-  gap: clamp(9px, 0.9vw, 13px);
+  gap: clamp(11px, 1.2vw, 17px);
 }
 
 .hero__features li {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  color: rgba(255, 247, 235, .84);
-  font-size: clamp(14px, 1.08vw, 17px);
-  font-weight: 300;
-  line-height: 1.45;
+  gap: 13px;
+  color: rgba(255, 247, 235, .92);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(21px, 1.75vw, 27px);
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: .015em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
 }
 
 .hero__feature-mark {
   display: inline-block;
   color: #d8a44b;
-  font-size: 11px;
-  line-height: 1.5;
+  font-size: clamp(14px, 1.15vw, 17px);
+  line-height: 1.45;
   flex-shrink: 0;
-  text-shadow: 0 0 10px rgba(216, 164, 75, .45);
+  text-shadow: 0 0 12px rgba(216, 164, 75, .5);
 }
 
 .hero__actions {
@@ -1859,20 +1862,20 @@ body.home-menu-open {
   }
 
   .hero__features {
-    margin-top: 10px;
-    max-width: 68%;
-    gap: 6px;
+    margin-top: 14px;
+    max-width: 78%;
+    gap: 9px;
   }
 
   .hero__features li {
-    gap: 7px;
-    font-size: clamp(10px, 2.9vw, 12px);
-    line-height: 1.35;
+    gap: 9px;
+    font-size: clamp(15px, 4.4vw, 19px);
+    line-height: 1.32;
   }
 
   .hero__feature-mark {
-    font-size: 8px;
-    line-height: 1.45;
+    font-size: 11px;
+    line-height: 1.4;
   }
 
   .desktop-only {
@@ -2314,14 +2317,15 @@ body.home-menu-open {
   }
 
   .hero__features {
-    max-width: 76%;
-    margin-top: 7px;
-    gap: 4px;
+    max-width: 84%;
+    margin-top: 10px;
+    gap: 7px;
   }
 
   .hero__features li {
-    font-size: 9.5px;
-    line-height: 1.25;
+    gap: 8px;
+    font-size: clamp(14px, 4.1vw, 17px);
+    line-height: 1.28;
   }
 
   .hero__actions {
