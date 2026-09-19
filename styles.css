@@ -813,8 +813,17 @@ body.home-menu-open {
   line-height: 1;
   flex-shrink: 0;
   text-shadow: 0 0 12px rgba(216, 164, 75, .5);
+.hero__desc {
+  margin: clamp(16px, 1.6vw, 24px) 0 0;
+  color: rgba(244, 226, 196, .84);
+  font-family: var(--sans);
+  font-size: clamp(14px, 1.1vw, 16px);
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: .01em;
+  max-width: 560px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .45);
 }
-
 
 .mobile-only {
   display: none !important;
@@ -1896,6 +1905,15 @@ body.home-menu-open {
   .hero__feature-mark {
     font-size: 13px;
     line-height: 1;
+  }
+
+  .hero__desc {
+    margin: clamp(14px, 4vw, 18px) 0 0 !important;
+    max-width: 88%;
+    font-size: clamp(12.5px, 3.4vw, 14.5px);
+    line-height: 1.45;
+    color: rgba(244, 226, 196, .82);
+    text-align: left;
   }
 
   .mobile-only {
